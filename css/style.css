@@ -1,15 +1,139 @@
 html, body {
-    max-width: 100%;
     overflow-x: hidden;
 }
 
+/* pages header */
+.pages-header {
+padding: 20px 0;
+
+}
+
+
+.header-txt {
+    font-size: 17px;
+    color: #fff;
+
+}
+
+/* page1  */
+.main {
+    width: 80%;
+    margin: auto;   
+    position: relative;  
+}
+.left-img {
+    position: relative;
+}
+
+.left-img img {
+border-radius: 50%;
+}
+
+.circle-1, .circle-2, .circle-0 {
+    position: absolute;
+    background-color: #7a00e3;
+    border-radius: 50%;
+}
+.circle-2 {
+    height: 70px;
+    width: 70px;
+    right: -25px;
+    top: 35%;
+}
+.circle-1 {
+    opacity: 0.5;
+    bottom: 6px;
+    height: 60px;
+    width: 60px;
+}
+.circle-0 {
+    height: 100px;
+    width: 100px;
+    opacity: 0.5;
+    top: 10%;
+    right: -50px;
+}
+
+.circle-2 h1 {
+    margin-left: 30px;
+    margin-top: 8px;
+    font-weight: 900;
+}
+
+.intro-header {
+    padding: 30px 0;
+}
+
+.intro-header h2 {
+    font-weight: 700;
+    font-size: 38px;
+}
+
+.para {
+    font-size: 17px;
+    padding-bottom: 100px;
+}
+
+.body {
+    position: relative;
+}
+
+.clickable {
+    background-image: linear-gradient(to bottom left, #3d2b75, #7901e3);
+    border: 2px solid #fff;
+    border-radius: 30px;
+    padding: 9px 20px;
+    color: #fff;
+    position: absolute;
+    right: 20px;
+}
+
+
+
+.sponsors {
+    background-color: #fff;
+    padding: 79px 0;
+}
+
+.body, .intro {
+    color: #fff;
+    padding: 20px;
+}
+
+.intro {
+    position: relative;
+}
 
 img{
     max-width: 100%;
 }
 
 
-.home-img {
-    width: 80%;
+.main-div {
     margin: auto;
+    position: relative;
+}
+
+.main-div a {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 49%;
+    right: 26px;
+    font-size: 32px;
+    color: #fff;
+}
+
+.light-line{
+    height:1px;
+    background: #fff;
+}
+
+
+
+.bg-color {
+    background-image: linear-gradient(to bottom left, #3d2b75, #7901e3);
+    position: relative;
+    overflow: hidden;
+
 }
