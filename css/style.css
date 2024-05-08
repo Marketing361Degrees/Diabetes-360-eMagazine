@@ -20,30 +20,28 @@ padding: 20px 0;
 }
 
 /* arrows  */
-.left a, .right a {
-    color: #fff;
-    opacity: 0.8;
-    
-}
 
 .left, .right {
     position: absolute;
-    top: 50%;
+    top: 600px;
+    width: 30px;
+    cursor: pointer;
 }
 
 .left {
-    left: 35px;
+    left: -40px;
 }
 
 .right {
-    right: 35px;
+    right: -40px;
 }
 
 /* page1  */
 .main {
-    width: 80%;
-    margin: auto;   
-    position: relative;  
+    position: relative;
+    max-width: 992px;
+    height: auto;
+    margin: auto;
 }
 .left-img {
     position: relative;
@@ -242,9 +240,11 @@ img{
     list-style: none;
     padding: 15px 15px 39px 15px;
     height: 180px;
+    max-width: 90%;
+    margin: auto;
 }
 .box ul {
-    padding-top: 60px;
+    padding-top: 69px;
 }
 
 .li-header{
@@ -279,7 +279,7 @@ img{
 }
 
 .table-content {
-    padding: 100px;
+    padding: 100px 40px;
 }
 
 .just-cent {
