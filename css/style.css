@@ -2,6 +2,13 @@ html, body {
     overflow-x: hidden;
 }
 
+
+/* hompage */
+.homepage-bg {
+    background-image: url('./img/magazine-edit-13-3-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 /* pages header */
 .pages-header-footer {
 padding: 20px 0;
