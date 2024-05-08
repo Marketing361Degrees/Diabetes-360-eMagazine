@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/fontawesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
 </head>
 <body>
@@ -12,14 +14,24 @@
     <div class="container-fluid">
         <div class="container p-0 bg-color">
             <div class="circle-0"></div>
-                <div class="main">
-                    <div class="pages-header">
+            
+                    <div class="left">
+                        <a href="index.html"><i class="fa-solid fa-chevron-left"></i></i></a>
+                    </div>
+                    <div class="right">
+                        <a href="page-3.html"><i class="fas fa-chevron-right"></i></a>
+                    </div>
+               
+      
+            <div class="main">
+
+                    <header class="pages-header-footer">
                         <div class="row align-items-center m-0">
                             <div class="col-3 header-txt"><p class=" m-0">NEWSLETTER in Diabetes</p></div>
                             <div class="col-7 align-content-center"><div class="light-line"></div></div>
-                            <div class="col-2"><img src="img/sanofi.jpg" alt=""></div>
+                            <div class="col-2"><img src="img/sanofi-logo-white.png" alt=""></div>
                         </div>
-                    </div>
+                    </header>
                     <div class="intro">
                         <div class="row">
                             <div class="col-3">
@@ -54,7 +66,7 @@
                                 writers—screen all medical databases for pertinent and relevant content to build this magazine.
                             </p>
     
-                            <p><strong>The 360</strong> .. Provides the opportunity to highlight important messages through scientific and
+                            <p><strong>The 360</strong> ... Provides the opportunity to highlight important messages through scientific and
                                 referenced content.</p>
     
                             <p>
@@ -83,13 +95,28 @@
                 </div>
         </div>
 
-        <footer class="footer pagination">
-
+        <div class="container">
+            <footer class="footer main">
+                <div class="pages-header-footer">
+                    <div class="row">
+                        <div class="col-1">
+                            <div class="pagination">
+                                <p>2</p>
+                            </div>
+                        </div>
+                        <div class="col-8 align-content-center p-0">
+                            <div class="dark-line"></div>
+                        </div>
+                        <div class="col-3 d-flex justify-content-center align-items-center">
+                            <div class="footer-txt">The 360 e-Magazine</div>
+                        </div>
+                    </div>
+                </div>
+            
         </footer>
+        </div>
     </div>
 
 
-<script src="js/bootstrap.bundle.min.js"></script>
-<script src="https://kit.fontawesome.com/05f3cf5af4.js" crossorigin="anonymous"></script>
-</body>
+    <script src="./js/bootstrap.bundle.min.js"></script>
 </html>
