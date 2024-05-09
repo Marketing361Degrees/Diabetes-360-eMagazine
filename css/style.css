@@ -372,6 +372,9 @@ article p {
     width: 80%;
 }
 
-/* .article-footer {
-    margin-top: -120px;
-} */
+
+
+.h3-inner {
+    color: #3d2b75;   
+    font-size: 23px;
+}
