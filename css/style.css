@@ -378,3 +378,38 @@ article p {
     color: #3d2b75;   
     font-size: 23px;
 }
+
+
+.bg-end {
+    background-image: radial-gradient(#7404da, #3d2b75);
+}
+
+.center-img{
+    width: 50%;
+    margin: auto;
+    margin-top: 40%;
+}
+
+.logo {
+    float: right;
+    width: 20%;
+    padding: 15px;
+    margin-right: 28px;
+}
+
+.end-footer {
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+}
+
+.bg-end {
+    height: 1200px;
+}
+
+.bg-end .left{
+    left:20px;
+}
