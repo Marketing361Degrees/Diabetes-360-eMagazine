@@ -13,6 +13,39 @@ html, body {
 hr {
     background: #000;
 }
+
+/* table of content */
+.dotted-circle {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    border-style: dashed solid solid solid;
+    border-color: #48228a #48228a gainsboro #48228a;
+    transform: rotate(45deg);
+    background: white url(/img/magazine-edit-13-3-10.jpg) no-repeat center;
+    background-size: contain;
+}
+
+.left-decor .row .col-5 {
+	margin-left: 10px;
+}
+
+.grey-line {
+    height: 2px;
+    background: grey;
+    position: relative;
+    place-self: center;
+}
+.grey-circle {
+    border-radius: 50%;
+    background-color: grey;
+    height: 17px;
+    width: 17px;
+    position: absolute;
+    right: 0;
+    bottom: -7px;
+}
+
 /* hompage */
 .homepage-bg {
     /* background-image: url('./img/magazine-edit-13-3-1'); */
@@ -291,7 +324,7 @@ img{
     border-radius: 40px;
     padding-right: 80px;
     padding: 5px 5px 5px 15px;
-    min-width: 350px;
+    min-width: 200px;
 
 }
 
@@ -413,3 +446,150 @@ article p {
 .bg-end .left{
     left:20px;
 }
+
+
+
+/* Responsive  */
+
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .subheader {
+        font-size: 11px;
+    }
+    article p {
+        font-size: 12px;
+    }
+
+    .left, .right {
+        top: 47%;
+        width: 20px;
+        z-index: 100;
+
+    }
+
+    .right {
+        right: 5px;
+    }
+    .left{
+        left: 5px;
+    }
+    /* .hm-pg .right {
+        right: 5px;
+    } */
+
+    .hm-pg footer {
+        right: unset;
+        bottom: -25px;
+    }
+
+    footer {
+        font-size: 10px;
+    }
+    .pagination p {
+        padding-top: 10px;
+    }
+
+    .header-txt{
+        font-size: 10px;
+    }
+
+    .intro-header h2 {
+        font-size: 25px;
+    }
+    .para {
+        font-size:15px;
+    }
+
+    .body {
+        padding: 35px;
+    }
+
+    .circle-2 h1 {
+        margin-left: 19px;
+        margin-top: 3px;
+        font-size: 2rem;
+    }
+
+    .circle-3 {
+        width: 100px;
+        height:100px;
+    }
+
+    .circle-3 h1 {
+        top: 27px;
+        font-size: 2rem;
+    }
+    .li-header {
+        padding: 9px 5px 0px 5px;
+    
+    }
+    
+    .li-header a h3 {
+        font-size: 15px;
+    }
+        .line-blue {
+            margin-left: -14px;
+        }
+        .table-header-subtext h2 {
+            font-size: 18px;
+        }
+        .table-content {
+            padding: 57px 40px;
+        }
+
+        .box ul {
+            padding-top: 25px;
+            padding-left:0;
+        }
+        .pg-no {
+            font-size: 15px;
+            margin-left: 5px;
+        }
+        .li-p {
+            font-size: 10px;
+        }
+        .box li {
+            list-style: none;
+            padding: 7px 0 39px 0;
+            height: 88px;
+            max-width: 90%;
+            margin: auto;
+        }
+
+        .just-cent {
+            margin-bottom: 3px;
+        }
+
+        article .left {
+            left: 0;
+        }
+        article .right {
+            right: 0;
+        }
+ }
+
+
+
+
+
+
+/* // Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { ... }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { ... }
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) { ... }
+
+// XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width */
