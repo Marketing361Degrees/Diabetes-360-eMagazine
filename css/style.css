@@ -14,6 +14,15 @@ hr {
     background: #000;
 }
 
+.carousel-control-next, .carousel-control-prev {
+    top: 470px;
+    bottom: unset;
+    color: #4a228c;
+    width: unset;
+}
+
+
+
 /* table of content */
 .dotted-circle {
     height: 90px;
