@@ -15,12 +15,12 @@ hr {
 }
 
 .carousel-control-next, .carousel-control-prev {
-    top: 45%;
+    top: 300px;
     bottom: unset;
     color: #4a228c;
-    width: unset;
+    width: 20px;
+    background-color: #0005;
 }
-
 
 
 /* table of content */
@@ -598,6 +598,9 @@ article p {
         .center-img {
     padding-top: 78%;
     padding-bottom: 85%;
+        }
+        .clickable {
+            bottom: -20px;
         }
  }
 
