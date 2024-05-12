@@ -74,12 +74,103 @@ hr {
     height: 90px;
     width: 90px;
     border-radius: 50%;
-    border-style: dashed solid solid solid;
-    border-color: #48228a #48228a gainsboro #48228a;
+    
     transform: rotate(45deg);
-    background: white url(/img/magazine-edit-13-3-10.jpg) no-repeat center;
     background-size: contain;
 }
+
+.dotted-circle-1 {
+    background: url(/img/article-05.png) no-repeat center;
+    background-size: contain;
+    border-style: dashed solid solid solid;
+    border-color: #48228a #48228a gainsboro #48228a;
+
+}
+.dotted-circle-6 {
+    background: url(/img/article-06.png) no-repeat center;
+    background-size: contain;
+    border-style: solid solid solid dashed;
+    border-color: gainsboro gainsboro #48228a #48228a;
+
+}
+.dotted-circle-7 {
+    background: url(/img/article-07.png) no-repeat center;
+    background-size: contain;
+    border-style: dashed solid solid solid;
+    border-color: #48228a #48228a gainsboro gainsboro;
+
+}
+.dotted-circle-8 {
+    background: url(/img/article-08.png) no-repeat center;
+    background-size: contain;
+    border-style: solid solid solid dashed;
+    border-color: gainsboro gainsboro #48228a #48228a;
+
+}
+.dotted-circle-9 {
+    background: url(/img/article-09.png) no-repeat center;
+    background-size: contain;
+    border-style: dashed solid solid solid;
+    border-color: #48228a #48228a gainsboro gainsboro;
+
+}
+.dotted-circle-10 {
+    background: url(/img/article-10.png) no-repeat center;
+    background-size: contain;
+    border-style: solid solid solid dashed;
+    border-color: gainsboro gainsboro #48228a #48228a;
+
+}
+.dotted-circle-11 {
+    background: url(/img/article-11.png) no-repeat center;
+    background-size: contain;
+    border-style: dashed solid solid solid;
+    border-color: #48228a #48228a gainsboro gainsboro;
+
+}
+.dotted-circle-12 {
+    background: url(/img/article-12.png) no-repeat center;
+    background-size: contain;
+    border-style: solid solid solid dashed;
+    border-color: gainsboro gainsboro #48228a #48228a;
+
+}
+
+.dotted-circle-13 {
+    background: url(/img/article-13.png) no-repeat center;
+    background-size: contain;
+    border-style: solid solid solid dashed;
+    border-color: gainsboro gainsboro #48228a #48228a;
+
+}
+.dotted-circle-14 {
+    background: url(/img/article-14.png) no-repeat center;
+    background-size: contain;
+    border-style: dashed solid solid solid;
+    border-color: #48228a #48228a gainsboro gainsboro;
+
+}
+.dotted-circle-15 {
+    background: url(/img/article-15.png) no-repeat center;
+    background-size: contain;
+    border-style: solid solid solid dashed;
+    border-color: gainsboro gainsboro #48228a #48228a;
+
+}
+.dotted-circle-16 {
+    background: url(/img/article-16.png) no-repeat center;
+    background-size: contain;
+    border-style: dashed solid solid solid;
+    border-color: #48228a #48228a gainsboro gainsboro;
+
+}
+
+.align-cntr {
+    align-content: center;
+    text-align: -webkit-center; 
+}
+
+.
 
 .left-decor .row .col-5 {
 	margin-left: 10px;
@@ -90,6 +181,31 @@ hr {
     background: grey;
     position: relative;
     place-self: center;
+    width:100%;
+}
+
+.table-of-content-row a {
+    text-decoration: none;
+}
+
+.table-of-content-row h3 {
+    font-size: 17px;
+    color: #6511bf;
+}
+.li-article {
+    position: relative;
+}
+.table-of-content-row p {
+    font-size: 10px;
+    position: absolute;
+    top: 27px;
+}
+
+
+
+.li-header {
+    color: #fff;
+    font-size: 11px
 }
 .grey-circle {
     border-radius: 50%;
@@ -126,12 +242,6 @@ hr {
     color: #fff;
 }
 /* pages header */
-.pages-header-footer {
-padding: 20px 0;
-
-}
-
-
 .header-txt {
     font-size: 20px;
     color: #fff;
@@ -376,7 +486,7 @@ img{
     border-radius: 40px;
     padding-right: 80px;
     padding: 5px 5px 5px 15px;
-    min-width: 200px;
+    /* min-width: 200px; */
 
 }
 
@@ -500,10 +610,169 @@ article p {
 
 /* Responsive  */
 
+ /* // Medium devices (tablets, less than 992px) */
 
+ @media only screen and (max-width: 991.98px) {
+    .home-icon {
+        width: 38px;
+        margin: 20px;
+    }
+    .header-txt-black {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .header-txt {
+        font-size: 13px;
+    }
+    .sanofi-logo {
+        width: 130px;
+    }
+    .left-img {
+        padding: 53px;
+        padding-left: 0;
+        padding-bottom: 0;
+    }
+
+    .circle-2 h1 {
+        margin-top: 24px;
+    }
+    .circle-1 {
+        bottom: 0;
+        height: 25%;
+        width: 25%;
+    }
+    .circle-2 {
+        height: 100px;
+        width: 100px;
+        top: 35%;
+        right: 0;
+    }
+    .footer-txt {
+        font-size: 14px;
+    }
+    .pagination p {
+        margin-bottom: 0;
+    }
+    .pages-header-footer {
+        margin-bottom: 10px;
+    }
+    .table-header-subtext h2 {
+        color: #2b398f;
+        font-size: 23px;
+        float: right;
+        margin-top: -41px;
+            }
+    .line-blue {
+        height: 1px;
+        background: #2b398f;
+        float: left;
+        width: 48%;
+        margin-top: -25px;
+        margin-left: 0;
+    }
+
+    .li-header {
+        margin-right: 10px;
+        padding-right: 45px;
+        font-size: 16px;
+    }
+    .table-of-content-row h3 {
+        font-size: 20px;
+    }
+    .table-of-content-row p {
+        font-size: 12px;
+        position: absolute;
+        top: 33px;
+    }
+    .rating {
+        width: 60%;
+        margin-bottom: 50px;
+    }
+
+    .purple-quote {
+        margin-bottom: 50px;
+    }
+
+ }
+
+  /* // Small devices (landscape phones, less than 768px) */
+  @media only screen and (max-width: 767.98px) { 
+    .home-icon, .home-icon-white {
+        width: 35px;
+    }
+    .header-txt {
+        font-size: 10px;
+        padding-right: 0;        
+    }
+    .col-6 .light-line {
+        padding: 0;
+    }
+
+    .intro-header h2 {
+        font-size: 30px;
+    }
+    .carousel-control-next, .carousel-control-prev {
+        top: 600px;
+    }
+    .para {
+        font-size: 17px;
+        padding-bottom: 100px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .line-blue {
+        margin-left: 40px;
+    }
+    .table-header-subtext h2 {
+        margin-top: -15px;
+        margin-left: 33px;
+    }
+    .li-header {
+        margin-right: 5px;
+        padding-right: 45px;
+    }
+    .li-long {
+        padding-top: 10px; 
+        padding-bottom: 10px;
+    }
+    .purple-quote {
+        margin-bottom: 30px;
+    }
+    .ref-rating p {
+        font-size: 12px;
+    }
+    .rating {
+        margin-bottom: 50px;
+    }
+    .center-img {
+        width: 50%;
+        margin: auto;
+        padding-top: 335px;
+        padding-bottom: 350px;
+    }
+    .end-footer {
+        color: #fff;
+        font-size: 12px;
+        position: unset;
+        bottom: 20px;
+        left: 30px;
+        padding: 30px;
+    }
+    }
+    
 /* // X-Small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) { 
-
+@media only screen and (max-width: 575.98px) { 
+    .dotted-circle {
+        width: 70px;
+        height: 70px;
+    }
+    .hm-pg footer, .footer {
+        padding: 0 5px 0 10px;
+    }
+    .footer-txt {
+        padding-left: 0;
+    text-align: center;
+    }
     .ribbon h2 {
         padding: 5px 0px 5px 15px;
         width: 93%;
@@ -539,11 +808,6 @@ article p {
         left: 5px;
     }
 
-    .hm-pg footer {
-        right: unset;
-        bottom: -25px;
-    }
-
     footer {
         font-size: 10px;
     }
@@ -552,7 +816,7 @@ article p {
     }
 
     .header-txt{
-        font-size: 10px;
+        font-size: 8px;
         padding:0;
     }
 
@@ -583,15 +847,21 @@ article p {
         font-size: 2rem;
     }
     .li-header {
-        padding: 9px 5px 0px 5px;
-    
+        padding: 7px 5px 7px 5px;
+        margin-right: 5px;
+        font-size: 9px;
+    }
+    .table-of-content-row p {
+        font-size: 8px;
+        top: 29px;
     }
     
     .li-header a h3 {
         font-size: 15px;
     }
         .line-blue {
-            margin-left: -14px;
+            margin-left: 30px;
+            width: 70%;
         }
         .table-header-subtext h2 {
             font-size: 18px;
@@ -629,10 +899,7 @@ article p {
         article .right {
             right: 0;
         }
-        .pages-header-footer {
-            padding: 10px 23px 0 15px;
-        
-        }
+    
         article, .article-head {
             padding: 15px;
         }
@@ -655,18 +922,23 @@ article p {
         .clickable {
             bottom: -20px;
         }
+
+        .table-header-subtext h2 {
+            margin-top: -20px;
+            margin-left: 9px;
+        }
+
+        .home-icon, .home-icon-white {
+            width: 25px;
+        }
  }
 
 
 
+   
 
 
-
-/* // Small devices (landscape phones, less than 768px)
-@media (max-width: 767.98px) { ... }
-
-// Medium devices (tablets, less than 992px)
-@media (max-width: 991.98px) { ... }
+/* 
 
 // Large devices (desktops, less than 1200px)
 @media (max-width: 1199.98px) { ... }
