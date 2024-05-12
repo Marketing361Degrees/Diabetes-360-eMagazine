@@ -13,7 +13,15 @@ html, body {
 hr {
     background: #000;
 }
+.home-icon {
+    width: 50px;
 
+    margin: 20px;
+}
+
+.sanofi-logo {
+    width: 160px;
+}
 .hm-pg {
     background-image: linear-gradient(#2f1e61, #8b73d0, #2f1e61);
     color: #fff;
@@ -80,56 +88,56 @@ hr {
 }
 
 .dotted-circle-1 {
-    background: url(/img/article-05.png) no-repeat center;
+    background: url(./img/article-05.png) no-repeat center;
     background-size: contain;
     border-style: dashed solid solid solid;
     border-color: #48228a #48228a gainsboro #48228a;
 
 }
 .dotted-circle-6 {
-    background: url(/img/article-06.png) no-repeat center;
+    background: url(./img/article-06.png) no-repeat center;
     background-size: contain;
     border-style: solid solid solid dashed;
     border-color: gainsboro gainsboro #48228a #48228a;
 
 }
 .dotted-circle-7 {
-    background: url(/img/article-07.png) no-repeat center;
+    background: url(./img/article-07.png) no-repeat center;
     background-size: contain;
     border-style: dashed solid solid solid;
     border-color: #48228a #48228a gainsboro gainsboro;
 
 }
 .dotted-circle-8 {
-    background: url(/img/article-08.png) no-repeat center;
+    background: url(./img/article-08.png) no-repeat center;
     background-size: contain;
     border-style: solid solid solid dashed;
     border-color: gainsboro gainsboro #48228a #48228a;
 
 }
 .dotted-circle-9 {
-    background: url(/img/article-09.png) no-repeat center;
+    background: url(./img/article-09.png) no-repeat center;
     background-size: contain;
     border-style: dashed solid solid solid;
     border-color: #48228a #48228a gainsboro gainsboro;
 
 }
 .dotted-circle-10 {
-    background: url(/img/article-10.png) no-repeat center;
+    background: url(./img/article-10.png) no-repeat center;
     background-size: contain;
     border-style: solid solid solid dashed;
     border-color: gainsboro gainsboro #48228a #48228a;
 
 }
 .dotted-circle-11 {
-    background: url(/img/article-11.png) no-repeat center;
+    background: url(./img/article-11.png) no-repeat center;
     background-size: contain;
     border-style: dashed solid solid solid;
     border-color: #48228a #48228a gainsboro gainsboro;
 
 }
 .dotted-circle-12 {
-    background: url(/img/article-12.png) no-repeat center;
+    background: url(./img/article-12.png) no-repeat center;
     background-size: contain;
     border-style: solid solid solid dashed;
     border-color: gainsboro gainsboro #48228a #48228a;
@@ -137,28 +145,28 @@ hr {
 }
 
 .dotted-circle-13 {
-    background: url(/img/article-13.png) no-repeat center;
+    background: url(./img/article-13.png) no-repeat center;
     background-size: contain;
     border-style: solid solid solid dashed;
     border-color: gainsboro gainsboro #48228a #48228a;
 
 }
 .dotted-circle-14 {
-    background: url(/img/article-14.png) no-repeat center;
+    background: url(./img/article-14.png) no-repeat center;
     background-size: contain;
     border-style: dashed solid solid solid;
     border-color: #48228a #48228a gainsboro gainsboro;
 
 }
 .dotted-circle-15 {
-    background: url(/img/article-15.png) no-repeat center;
+    background: url(./img/article-15.png) no-repeat center;
     background-size: contain;
     border-style: solid solid solid dashed;
     border-color: gainsboro gainsboro #48228a #48228a;
 
 }
 .dotted-circle-16 {
-    background: url(/img/article-16.png) no-repeat center;
+    background: url(./img/article-16.png) no-repeat center;
     background-size: contain;
     border-style: dashed solid solid solid;
     border-color: #48228a #48228a gainsboro gainsboro;
@@ -189,24 +197,18 @@ hr {
 }
 
 .table-of-content-row h3 {
-    font-size: 17px;
+    font-size: 27px;
     color: #6511bf;
 }
 .li-article {
     position: relative;
 }
 .table-of-content-row p {
-    font-size: 10px;
+    font-size: 14px;
     position: absolute;
-    top: 27px;
+    top: 43px;
 }
 
-
-
-.li-header {
-    color: #fff;
-    font-size: 11px
-}
 .grey-circle {
     border-radius: 50%;
     background-color: grey;
@@ -219,7 +221,6 @@ hr {
 
 /* hompage */
 .homepage-bg {
-    /* background-image: url('./img/magazine-edit-13-3-1'); */
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -311,8 +312,9 @@ border-radius: 50%;
 
 .circle-2 h1 {
     margin-left: 30px;
-    margin-top: 8px;
+    margin-top: 25px;
     font-weight: 900;
+    font-size: 4rem;
 }
 
 .intro-header {
@@ -453,7 +455,7 @@ img{
     height: 1px;
     background: #2b398f;
     float: right;
-    width: 85%;
+    width: 60%;
     margin-top: -25px;
     margin-left: -47px;
 }
@@ -467,6 +469,7 @@ img{
     color: #2b398f;
     font-size: 29px;
     margin-top: -45px;
+    float: right;
 }
 
 .box li {
@@ -485,9 +488,10 @@ img{
     background-image: linear-gradient(to bottom right, #3d2b75, #7901e3);
     border-radius: 40px;
     padding-right: 80px;
-    padding: 5px 5px 5px 15px;
-    /* min-width: 200px; */
-
+    padding: 5px 45px 5px 15px;
+    color: #fff;
+    font-size: 20px;
+    margin-right: 20px;
 }
 
 .li-header:hover {
@@ -579,10 +583,11 @@ article p {
     background-image: radial-gradient(#7404da, #3d2b75);
 }
 
-.center-img{
+.center-img {
     width: 50%;
     margin: auto;
-    padding-top: 40%;
+    padding-top: 350px;
+    padding-bottom: 350px;
 }
 
 .logo {
@@ -595,9 +600,8 @@ article p {
 .end-footer {
     color: #fff;
     font-size: 12px;
-    position: absolute;
-    bottom: 20px;
-    left: 30px;
+    padding: 40px;
+
 }
 
 
@@ -702,7 +706,7 @@ article p {
     }
     .header-txt {
         font-size: 10px;
-        padding-right: 0;        
+        padding-right: 0; 
     }
     .col-6 .light-line {
         padding: 0;
@@ -758,8 +762,12 @@ article p {
         left: 30px;
         padding: 30px;
     }
+    .sanofi-logo {
+        width: 90px;
     }
-    
+
+    }
+
 /* // X-Small devices (portrait phones, less than 576px) */
 @media only screen and (max-width: 575.98px) { 
     .dotted-circle {
@@ -817,7 +825,7 @@ article p {
 
     .header-txt{
         font-size: 8px;
-        padding:0;
+        padding-left:15px;       
     }
 
     .intro-header h2 {
@@ -860,8 +868,8 @@ article p {
         font-size: 15px;
     }
         .line-blue {
-            margin-left: 30px;
-            width: 70%;
+            margin-left: 0;
+            width: 45%;
         }
         .table-header-subtext h2 {
             font-size: 18px;
@@ -924,9 +932,10 @@ article p {
         }
 
         .table-header-subtext h2 {
-            margin-top: -20px;
-            margin-left: 9px;
+            margin-top: -37px;
+            margin-right: 15px;
         }
+          
 
         .home-icon, .home-icon-white {
             width: 25px;
