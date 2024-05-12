@@ -14,6 +14,52 @@ hr {
     background: #000;
 }
 
+.hm-pg {
+    background-image: linear-gradient(#2f1e61, #8b73d0, #2f1e61);
+    color: #fff;
+}
+
+.dummy-box {
+    height: 300px;
+    width: 300px;
+    background-color: #000;
+    margin: auto; 
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.ribbon {
+    width: 100%;
+}
+.ribbon h2 {
+    background: #670fbf;
+    padding: 5px 0 5px 80px;
+    width: 85%;
+}
+.reference {
+    padding: 5px 0 5px 80px;
+    font-size: 0.9rem;
+}
+.p-99 {
+    padding-right: 100px;
+}
+.card {
+    background-color: transparent;
+    color: #fff;
+    font-weight: 500;
+    border: none;
+    padding: 0 10px;
+}
+.card-img {
+    /* height: 55%; */
+    overflow: hidden;
+}
+
+.cover-header {
+    width: 80%;
+    margin: auto;
+    padding: 76px 20px;
+
+}
 .carousel-control-next, .carousel-control-prev {
     top: 300px;
     bottom: unset;
@@ -63,12 +109,9 @@ hr {
 }
 
 .hm-pg footer{
-    position: absolute;
-    bottom: 0;
     width: 100%;
     margin: auto;
     color: #fff;
-    right: 6%;
 }
 
 .hm-pg .right {
@@ -461,6 +504,16 @@ article p {
 /* // X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
 
+    .ribbon h2 {
+        padding: 5px 0px 5px 15px;
+        width: 93%;
+    }
+
+    .reference {
+        padding: 5px 0 5px 15px;
+        font-size: 0.7rem;
+    }
+
     h1 {
         font-size: 1.rem5;
     }
@@ -469,7 +522,7 @@ article p {
         font-size: 11px;
     }
     article p {
-        font-size: 12px;
+        font-size: 15px;
     }
 
     .left, .right {
