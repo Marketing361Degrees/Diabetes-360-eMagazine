@@ -27,18 +27,14 @@ hr {
     color: #fff;
     width: 100%;
 }
+.bg-pg1-img img {
+    width: 100%;
+}
 
 .footer-txt, .pagination p {
     font-size: 29px;
 }
-.dummy-box {
-    height: 300px;
-    width: 300px;
-    background-color: #000;
-    margin: auto; 
-    margin-top: 200px;
-    margin-bottom: 200px;
-}
+
 .ribbon {
     width: 100%;
 }
@@ -70,9 +66,10 @@ hr {
 }
 .cover-header {
     width: 80%;
-    margin: auto;
-    padding: 76px 20px;
-
+    padding: 76px 10px;
+    position: absolute;
+    top: -10px;
+    left: 10%;
 }
 .carousel-control-next, .carousel-control-prev {
     top: 600px;
@@ -246,6 +243,13 @@ hr {
     width: 100%;
     margin: auto;
     color: #fff;
+    padding-bottom: 10px;
+    
+}
+
+.hm-pg-tail{
+    position: absolute;
+    bottom:0;
 }
 
 .hm-pg .right {
@@ -426,7 +430,9 @@ img{
     background-image: linear-gradient(to bottom left, #3d2b75, #7901e3);
     position: relative;
     overflow: hidden;
-
+    height: 1580px;
+    max-width: 992px;
+    margin: auto;
 }
 
 
@@ -634,9 +640,27 @@ article p {
 
 /* Responsive  */
 
- /* // Medium devices (tablets, less than 992px) */
+ @media (max-width: 1199.98px) { 
+    .bg-color {
+        height: 1550px;
+    }
+  }
+   /* // Medium devices (tablets, less than 992px) */
 
  @media only screen and (max-width: 991.98px) {
+    .bg-color {
+        height: 1140px;
+    }
+    .reference {
+        padding: 5px 0 5px 80px;
+        font-size: 10px;
+    }
+    .ribbon h2 {
+        font-size: 19px;
+    }
+    .card {
+        font-size:13px;
+    }
     .quotes {
         width: 17%;
     }
@@ -754,6 +778,9 @@ article p {
 
   /* // Small devices (landscape phones, less than 768px) */
   @media only screen and (max-width: 767.98px) { 
+    .bg-color {
+        height: 1235px;
+    }
 
     .dotted-circle {
         height: 100px;
@@ -875,7 +902,17 @@ article p {
     }
 
 /* // X-Small devices (portrait phones, less than 576px) */
-@media only screen and (max-width: 575.98px) { 
+@media only screen and (max-width: 575.98px) {
+    .bg-color {
+        height: 1130px;
+    }
+
+
+    .cover-header {
+        padding: 40px 10px;
+        
+    }
+
 
     .carousel-control-next, .carousel-control-prev {
         top: 350px;
@@ -894,8 +931,8 @@ article p {
         height: 70px;
     }
     .hm-pg footer, .footer {
-        padding: 0 5px 0 10px;
-    }
+        padding: 0 5px 10px 10px;
+        }
     .footer-txt {
         padding-left: 0;
         text-align: center;
@@ -1086,4 +1123,14 @@ article p {
         .home-icon, .home-icon-white {
             width: 25px;
         }
+ }
+
+ @media only screen and (max-width: 412px) {
+    .bg-color {
+        height: 1045px;
+    }
+
+ }
+ @media only screen and (max-width: 376px) {
+
  }
