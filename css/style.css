@@ -79,14 +79,23 @@ hr {
     bottom: unset;
     color: #4a228c;
     width: 20px;
-    background-color: #0005;
+    /* background-color: #0005; */
 }
 
 
 /* table of content */
+.hba {
+    margin-bottom: 150px;
+}
+.page-no {
+    color: #7901e3;
+    position: absolute;
+    right: -60px;
+
+}
 .dotted-circle {
-    height: 90px;
-    width: 90px;
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
     
     transform: rotate(45deg);
@@ -203,16 +212,18 @@ hr {
 }
 
 .table-of-content-row h3 {
+    position: relative;
     font-size: 27px;
-    color: #6511bf;
+    color: #fff;
+    width: 400px;
 }
 .li-article {
     position: relative;
 }
 .table-of-content-row p {
-    font-size: 14px;
+    font-size: 18px;
     position: absolute;
-    top: 43px;
+    top: 60px;
 }
 
 .grey-circle {
@@ -288,6 +299,7 @@ hr {
 .left-img {
     position: relative;
     margin-bottom: 100px;
+    width: 33%;
 }
 
 .left-img img {
@@ -367,13 +379,14 @@ border-radius: 50%;
     padding: 79px 0;
 }
 
-.body, .intro {
+.intro, .body {
     color: #fff;
-    padding: 20px;
 }
 
 .intro {
     position: relative;
+    padding: 20px;
+
 }
 
 img{
@@ -476,6 +489,7 @@ img{
     font-size: 29px;
     margin-top: -45px;
     float: right;
+    margin-right: -25px;
 }
 
 .box li {
@@ -494,7 +508,7 @@ img{
     background-image: linear-gradient(to bottom right, #3d2b75, #7901e3);
     border-radius: 40px;
     padding-right: 80px;
-    padding: 5px 45px 5px 15px;
+    padding: 10px 10px 10px 15px;
     color: #fff;
     font-size: 20px;
     margin-right: 20px;
@@ -623,6 +637,12 @@ article p {
 
  @media only screen and (max-width: 991.98px) {
 
+    .clickable {
+
+        margin-top: -30px;
+        font-size: 20px;
+    }
+
     .footer-txt, .pagination p {
         font-size: 17px;
     }
@@ -644,10 +664,16 @@ article p {
     .left-img {
         padding-left: 0;
         padding-bottom: 0;
+        width: 33%;
+        margin-bottom: 0;
     }
 
     .circle-2 h1 {
-        margin-top: 24px;
+        margin-top: 12px;
+        font-size: 3rem;
+    }
+    .para {
+        font-size: 20px;
     }
     .circle-1 {
         bottom: 0;
@@ -666,9 +692,9 @@ article p {
     .pagination p {
         margin-bottom: 0;
     }
-    .pages-header-footer {
+    /* .pages-header-footer {
         margin-bottom: 10px;
-    }
+    } */
     .table-header-subtext h2 {
         color: #2b398f;
         font-size: 23px;
@@ -690,12 +716,22 @@ article p {
         font-size: 16px;
     }
     .table-of-content-row h3 {
-        font-size: 20px;
+        font-size: 18px;
+        width: 290px;
     }
     .table-of-content-row p {
-        font-size: 12px;
+        font-size: 14px;
         position: absolute;
-        top: 33px;
+        top: 46px;
+    }
+
+    .page-no {
+        right: -35px;
+    }
+
+    .dotted-circle {
+        height: 120px;
+        width: 120px;
     }
     .rating {
         /* width: 60%; */
@@ -710,9 +746,27 @@ article p {
 
   /* // Small devices (landscape phones, less than 768px) */
   @media only screen and (max-width: 767.98px) { 
-
+    .dotted-circle {
+        height: 100px;
+        width: 100px;
+       
+    }
+    .circle-2 h1 {
+        font-size: 2.3rem;
+        margin-top: 8px;
+    }
+    .table-content {
+        padding: 100px 10px;
+    }
+    .li-header {
+        font-size: 11px;
+    }
     .footer-txt, .pagination p {
-        font-size: 17px;
+        font-size: 14px;
+    }
+
+    .left-img {
+        width: 36%;
     }
 
     .home-icon, .home-icon-white {
@@ -741,14 +795,24 @@ article p {
     .line-blue {
         margin-left: 40px;
     }
+   
     .table-header-subtext h2 {
-        margin-top: -15px;
-        margin-left: 33px;
+        font-size: 19px;
+        float: right;
+    }
+    .table-of-content-row h3 {
+        font-size: 15px;
+        width: 228px;
+    }
+
+    .page-no {
+        right: -30px;
     }
     .li-header {
-        margin-right: 5px;
-        padding-right: 45px;
+        padding: 6px 10px 6px 15px;
+        
     }
+    
     .li-long {
         padding-top: 10px; 
         padding-bottom: 10px;
@@ -777,13 +841,25 @@ article p {
         padding: 30px;
     }
     .sanofi-logo {
-        width: 90px;
+        width: 70px;
+    }
+
+    .clickable {
+        font-size: 17px;
+        margin-top: -20px;
     }
 
     }
 
 /* // X-Small devices (portrait phones, less than 576px) */
 @media only screen and (max-width: 575.98px) { 
+    .hba {
+        margin-bottom: 150px;
+        font-size: 13px;
+    }
+    .p-100 {
+        padding-top: 70px;
+    }
     .dotted-circle {
         width: 70px;
         height: 70px;
@@ -806,7 +882,7 @@ article p {
     }
 
     h1 {
-        font-size: 1.rem;
+        font-size: 1.5rem;
     }
 
     .subheader {
@@ -822,7 +898,7 @@ article p {
         z-index: 100;
     }
     .footer-txt, .pagination p {
-        font-size: 17px;
+        font-size: 12px;
     }
 
     .right {
@@ -836,40 +912,54 @@ article p {
         font-size: 10px;
     }
     .pagination p {
-        font-size: 15px;
+        font-size: 13px;
     }
 
-    .header-txt{
-        font-size: 8px;
-        padding-left:15px;       
+    .header-txt {
+        font-size: 11px;
     }
-
     .intro-header h2 {
         font-size: 1.2rem;
     }
+
+    .sanofi-logo {
+        width: 80px;
+    }
+
     .para {
         font-size:15px;
     }
 
-    .body {
-        padding: 35px;
-    }
-
     .circle-2 h1 {
         margin-left: 19px;
-        margin-top: 3px;
-        font-size: 2rem;
+        margin-top: 11px;
+        font-size: 1.5rem;
     }
 
     .circle-3 {
-        width: 100px;
-        height:100px;
+        width: 90px;
+        height: 90px;
     }
 
     .circle-3 h1 {
         top: 27px;
-        font-size: 2rem;
+        font-size: 1.8rem;
+        left: 9px;
     }
+    .table-header {
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+    .circle-4 {
+        height: 30px;
+        width: 30px;
+        position: absolute;
+        background: #7901e3;
+        border-radius: 45%;
+        top: -24px;
+        left: -15px;
+    }
+
     .li-header {
         padding: 7px 5px 7px 5px;
         margin-right: 5px;
@@ -878,20 +968,33 @@ article p {
     .table-of-content-row p {
         font-size: 8px;
         top: 29px;
+        width: 117%;
     }
+    .page-no {
+        color: #7901e3;
+        position: absolute;
+        right: -17px;
+    }
+    
+        .table-of-content-row h3 {
+            font-size: 10px;
+    width: 150px;
+        }
     
     .li-header a h3 {
         font-size: 15px;
     }
-        .line-blue {
-            margin-left: 0;
-            width: 45%;
-        }
+    .line-blue {
+        margin-left: 21px;
+        width: 70%;
+    }
+
         .table-header-subtext h2 {
             font-size: 18px;
+            margin-top: -20px;
         }
         .table-content {
-            padding: 57px 40px;
+            padding: 57px 15px;
         }
 
         .box ul {
@@ -945,13 +1048,11 @@ article p {
         }
         .clickable {
             bottom: -20px;
+            font-size: 15px;
         }
-
-        .table-header-subtext h2 {
-            margin-top: -37px;
-            margin-right: 15px;
-        }
-          
+        /* .pages-header-footer {
+            margin-bottom: unset;
+        } */
 
         .home-icon, .home-icon-white {
             width: 25px;
