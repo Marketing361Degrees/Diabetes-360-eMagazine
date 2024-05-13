@@ -14,8 +14,8 @@ hr {
     background: #000;
 }
 .home-icon {
+    position: absolute;
     width: 50px;
-
     margin: 20px;
 }
 
@@ -25,8 +25,12 @@ hr {
 .hm-pg {
     background-image: linear-gradient(#2f1e61, #8b73d0, #2f1e61);
     color: #fff;
+    width: 100%;
 }
 
+.footer-txt, .pagination p {
+    font-size: 29px;
+}
 .dummy-box {
     height: 300px;
     width: 300px;
@@ -58,10 +62,12 @@ hr {
     padding: 0 10px;
 }
 .card-img {
-    /* height: 55%; */
     overflow: hidden;
 }
 
+.p-100 {
+    padding-top: 100px;
+}
 .cover-header {
     width: 80%;
     margin: auto;
@@ -88,56 +94,56 @@ hr {
 }
 
 .dotted-circle-1 {
-    background: url(./img/article-05.png) no-repeat center;
+    background: url(/img/article-05.png) no-repeat center;
     background-size: contain;
     border-style: dashed solid solid solid;
     border-color: #48228a #48228a gainsboro #48228a;
 
 }
 .dotted-circle-6 {
-    background: url(./img/article-06.png) no-repeat center;
+    background: url(/img/article-06.png) no-repeat center;
     background-size: contain;
     border-style: solid solid solid dashed;
     border-color: gainsboro gainsboro #48228a #48228a;
 
 }
 .dotted-circle-7 {
-    background: url(./img/article-07.png) no-repeat center;
+    background: url(/img/article-07.png) no-repeat center;
     background-size: contain;
     border-style: dashed solid solid solid;
     border-color: #48228a #48228a gainsboro gainsboro;
 
 }
 .dotted-circle-8 {
-    background: url(./img/article-08.png) no-repeat center;
+    background: url(/img/article-08.png) no-repeat center;
     background-size: contain;
     border-style: solid solid solid dashed;
     border-color: gainsboro gainsboro #48228a #48228a;
 
 }
 .dotted-circle-9 {
-    background: url(./img/article-09.png) no-repeat center;
+    background: url(/img/article-09.png) no-repeat center;
     background-size: contain;
     border-style: dashed solid solid solid;
     border-color: #48228a #48228a gainsboro gainsboro;
 
 }
 .dotted-circle-10 {
-    background: url(./img/article-10.png) no-repeat center;
+    background: url(/img/article-10.png) no-repeat center;
     background-size: contain;
     border-style: solid solid solid dashed;
     border-color: gainsboro gainsboro #48228a #48228a;
 
 }
 .dotted-circle-11 {
-    background: url(./img/article-11.png) no-repeat center;
+    background: url(/img/article-11.png) no-repeat center;
     background-size: contain;
     border-style: dashed solid solid solid;
     border-color: #48228a #48228a gainsboro gainsboro;
 
 }
 .dotted-circle-12 {
-    background: url(./img/article-12.png) no-repeat center;
+    background: url(/img/article-12.png) no-repeat center;
     background-size: contain;
     border-style: solid solid solid dashed;
     border-color: gainsboro gainsboro #48228a #48228a;
@@ -145,28 +151,28 @@ hr {
 }
 
 .dotted-circle-13 {
-    background: url(./img/article-13.png) no-repeat center;
+    background: url(/img/article-13.png) no-repeat center;
     background-size: contain;
     border-style: solid solid solid dashed;
     border-color: gainsboro gainsboro #48228a #48228a;
 
 }
 .dotted-circle-14 {
-    background: url(./img/article-14.png) no-repeat center;
+    background: url(/img/article-14.png) no-repeat center;
     background-size: contain;
     border-style: dashed solid solid solid;
     border-color: #48228a #48228a gainsboro gainsboro;
 
 }
 .dotted-circle-15 {
-    background: url(./img/article-15.png) no-repeat center;
+    background: url(/img/article-15.png) no-repeat center;
     background-size: contain;
     border-style: solid solid solid dashed;
     border-color: gainsboro gainsboro #48228a #48228a;
 
 }
 .dotted-circle-16 {
-    background: url(./img/article-16.png) no-repeat center;
+    background: url(/img/article-16.png) no-repeat center;
     background-size: contain;
     border-style: dashed solid solid solid;
     border-color: #48228a #48228a gainsboro gainsboro;
@@ -244,7 +250,7 @@ hr {
 }
 /* pages header */
 .header-txt {
-    font-size: 20px;
+    font-size: 25px;
     color: #fff;
 
 }
@@ -273,12 +279,15 @@ hr {
 /* page1  */
 .main {
     position: relative;
-    max-width: 992px;
     height: auto;
     margin: auto;
+    padding-right: 30px;
+    padding-left: 30px;
+    max-width: 992px;
 }
 .left-img {
     position: relative;
+    margin-bottom: 100px;
 }
 
 .left-img img {
@@ -327,7 +336,7 @@ border-radius: 50%;
 }
 
 .para {
-    font-size: 17px;
+    font-size: 29px;
     padding-bottom: 100px;
 }
 
@@ -344,6 +353,7 @@ border-radius: 50%;
     position: absolute;
     right: 20px;
     text-decoration: none;
+    font-size: 29px;
 }
 
 .clickable:hover {
@@ -445,10 +455,6 @@ img{
 
 .intro-cont {
     color: #7901e3;
-    /* background: linear-gradient(to bottom, #3d2b75, #7901e3);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent; */
 }
 
 .line-blue {
@@ -570,7 +576,9 @@ article p {
     font-size: 14px;
     width: 80%;
 }
-
+.rating {
+    padding-bottom: 50px;
+}
 
 
 .h3-inner {
@@ -586,8 +594,8 @@ article p {
 .center-img {
     width: 50%;
     margin: auto;
-    padding-top: 350px;
-    padding-bottom: 350px;
+    padding-top: 400px;
+    padding-bottom: 400px;
 }
 
 .logo {
@@ -599,12 +607,9 @@ article p {
 
 .end-footer {
     color: #fff;
-    font-size: 12px;
+    font-size: 20px;
     padding: 40px;
-
 }
-
-
 
 .bg-end .left{
     left:20px;
@@ -617,6 +622,11 @@ article p {
  /* // Medium devices (tablets, less than 992px) */
 
  @media only screen and (max-width: 991.98px) {
+
+    .footer-txt, .pagination p {
+        font-size: 17px;
+    }
+
     .home-icon {
         width: 38px;
         margin: 20px;
@@ -632,7 +642,6 @@ article p {
         width: 130px;
     }
     .left-img {
-        padding: 53px;
         padding-left: 0;
         padding-bottom: 0;
     }
@@ -646,10 +655,10 @@ article p {
         width: 25%;
     }
     .circle-2 {
-        height: 100px;
-        width: 100px;
+        height: 40%;
+        width: 40%;
         top: 35%;
-        right: 0;
+        right: -19px;
     }
     .footer-txt {
         font-size: 14px;
@@ -689,7 +698,7 @@ article p {
         top: 33px;
     }
     .rating {
-        width: 60%;
+        /* width: 60%; */
         margin-bottom: 50px;
     }
 
@@ -701,6 +710,11 @@ article p {
 
   /* // Small devices (landscape phones, less than 768px) */
   @media only screen and (max-width: 767.98px) { 
+
+    .footer-txt, .pagination p {
+        font-size: 17px;
+    }
+
     .home-icon, .home-icon-white {
         width: 35px;
     }
@@ -779,7 +793,7 @@ article p {
     }
     .footer-txt {
         padding-left: 0;
-    text-align: center;
+        text-align: center;
     }
     .ribbon h2 {
         padding: 5px 0px 5px 15px;
@@ -792,7 +806,7 @@ article p {
     }
 
     h1 {
-        font-size: 1.rem5;
+        font-size: 1.rem;
     }
 
     .subheader {
@@ -806,7 +820,9 @@ article p {
         top: 47%;
         width: 20px;
         z-index: 100;
-
+    }
+    .footer-txt, .pagination p {
+        font-size: 17px;
     }
 
     .right {
@@ -820,7 +836,7 @@ article p {
         font-size: 10px;
     }
     .pagination p {
-        padding-top: 10px;
+        font-size: 15px;
     }
 
     .header-txt{
