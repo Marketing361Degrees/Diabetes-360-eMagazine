@@ -27,12 +27,28 @@ hr {
     color: #fff;
     width: 100%;
 }
+
+.line-1 {
+    height: 1px;
+    background: #fff;
+    width: 214px;
+    place-self: center;
+    margin-bottom: 16px;
+}
+
+.volume {
+    position: absolute;
+    right: -159px;
+    transform: rotate(90deg);
+    top: 284px;
+    font-weight: 100;
+}
 .bg-pg1-img img {
     width: 100%;
 }
 
 .footer-txt, .pagination p {
-    font-size: 29px;
+    font-size: 18px;
 }
 
 .ribbon {
