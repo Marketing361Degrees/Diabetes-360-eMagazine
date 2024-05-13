@@ -75,10 +75,10 @@ hr {
 
 }
 .carousel-control-next, .carousel-control-prev {
-    top: 300px;
+    top: 600px;
     bottom: unset;
     color: #4a228c;
-    width: 20px;
+    width: 30px;
     /* background-color: #0005; */
 }
 
@@ -261,7 +261,7 @@ hr {
 }
 /* pages header */
 .header-txt {
-    font-size: 25px;
+    font-size: 19px;
     color: #fff;
 
 }
@@ -366,6 +366,7 @@ border-radius: 50%;
     right: 20px;
     text-decoration: none;
     font-size: 29px;
+    bottom: -30px;
 }
 
 .clickable:hover {
@@ -636,6 +637,9 @@ article p {
  /* // Medium devices (tablets, less than 992px) */
 
  @media only screen and (max-width: 991.98px) {
+    .quotes {
+        width: 17%;
+    }
 
     .clickable {
 
@@ -741,11 +745,16 @@ article p {
     .purple-quote {
         margin-bottom: 50px;
     }
-
+    .carousel-control-next, .carousel-control-prev {
+        top: 400px;
+        width: 20px;
+        
+    }
  }
 
   /* // Small devices (landscape phones, less than 768px) */
   @media only screen and (max-width: 767.98px) { 
+
     .dotted-circle {
         height: 100px;
         width: 100px;
@@ -785,6 +794,7 @@ article p {
     }
     .carousel-control-next, .carousel-control-prev {
         top: 600px;
+        width: 20px;
     }
     .para {
         font-size: 17px;
@@ -799,6 +809,19 @@ article p {
     .table-header-subtext h2 {
         font-size: 19px;
         float: right;
+        margin-top: -22px;
+    }
+    .table-of-content-row p {
+        font-size: 13px;
+        top: 30px;
+    }
+    .circle-3 {
+        height: 120px;
+        width: 120px;
+    }
+    .circle-3 h1 {
+        top: 39px;
+        font-size: 38px;
     }
     .table-of-content-row h3 {
         font-size: 15px;
@@ -853,6 +876,12 @@ article p {
 
 /* // X-Small devices (portrait phones, less than 576px) */
 @media only screen and (max-width: 575.98px) { 
+
+    .carousel-control-next, .carousel-control-prev {
+        top: 350px;
+        width: 20px;
+    }
+
     .hba {
         margin-bottom: 150px;
         font-size: 13px;
@@ -1058,19 +1087,3 @@ article p {
             width: 25px;
         }
  }
-
-
-
-   
-
-
-/* 
-
-// Large devices (desktops, less than 1200px)
-@media (max-width: 1199.98px) { ... }
-
-// X-Large devices (large desktops, less than 1400px)
-@media (max-width: 1399.98px) { ... }
-
-// XX-Large devices (larger desktops)
-// No media query since the xxl breakpoint has no upper bound on its width */
