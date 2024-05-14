@@ -22,7 +22,8 @@ nxt.addEventListener('click', () => {
     nxt.style.display = "none"; // Hide next button on second-to-last slide
   }
   if (activeSlideIndex === 0) {
-    prev.style.display = "block"; // Show prev button on subsequent slides
+    // Show prev button on subsequent slides
+    prev.style.display = "block"; 
   }
 });
 
