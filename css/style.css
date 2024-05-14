@@ -1,6 +1,6 @@
 html, body {
     overflow-x: hidden;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat';
 }
 
 .primary-col {
@@ -93,7 +93,6 @@ hr {
     bottom: unset;
     color: #4a228c;
     width: 30px;
-    /* background-color: #0005; */
 }
 
 
@@ -787,7 +786,6 @@ article p {
         width: 120px;
     }
     .rating {
-        /* width: 60%; */
         margin-bottom: 50px;
     }
 
@@ -902,7 +900,7 @@ article p {
         margin-bottom: 50px;
     }
     .center-img {
-        width: 50%;
+        width: 70%;
         margin: auto;
         padding-top: 335px;
         padding-bottom: 350px;
@@ -1141,9 +1139,7 @@ article p {
             bottom: -20px;
             font-size: 15px;
         }
-        /* .pages-header-footer {
-            margin-bottom: unset;
-        } */
+        
 
         .home-icon, .home-icon-white {
             width: 25px;

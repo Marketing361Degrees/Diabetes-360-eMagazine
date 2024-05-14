@@ -1,0 +1,192 @@
+%!Adobe-FontList 1.24
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Montserrat-Medium
+FamilyName:Montserrat
+StyleName:Medium
+FullName:Montserrat Medium
+MenuName:Montserrat Medium
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\Abeer\project-files\361Degrees\Magazine-edit 14 May Folder Final\Magazine-edit 14 May Folder Final\Document fonts\15-font.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:230356
+FileModTime:1715707147
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Montserrat Medium
+NameArray:0,Win,1,Montserrat Medium
+NameArray:0,Win,16,Montserrat
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AdobeArabic-Regular
+FamilyName:Adobe Arabic
+StyleName:Regular
+FullName:Adobe Arabic Regular
+MenuName:Adobe Arabic
+StyleBits:0
+FamilyNameNative:Adobe Arabic
+StyleNameNative:Regular
+FullNameNative:Adobe Arabic Regular
+WritingScript:Arabic
+OutlineFileName:E:\Abeer\project-files\361Degrees\Magazine-edit 14 May Folder Final\Magazine-edit 14 May Folder Final\Document fonts\AdobeArabic-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:299680
+FileModTime:1715707147
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Adobe Arabic
+NameArray:0,Mac,4,Adobe Arabic Regular
+NameArray:0,Win,1,Adobe Arabic
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Montserrat-Black
+FamilyName:Montserrat
+StyleName:Black
+FullName:Montserrat Black
+MenuName:Montserrat Black
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\Abeer\project-files\361Degrees\Magazine-edit 14 May Folder Final\Magazine-edit 14 May Folder Final\Document fonts\Montserrat-Black.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:230124
+FileModTime:1715707147
+WeightClass:900
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Montserrat Black
+NameArray:0,Win,1,Montserrat Black
+NameArray:0,Win,16,Montserrat
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Montserrat-Bold
+FamilyName:Montserrat
+StyleName:Bold
+FullName:Montserrat Bold
+MenuName:Montserrat
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:E:\Abeer\project-files\361Degrees\Magazine-edit 14 May Folder Final\Magazine-edit 14 May Folder Final\Document fonts\Montserrat-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:235192
+FileModTime:1715707147
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Montserrat Bold
+NameArray:0,Win,1,Montserrat
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Montserrat-Italic
+FamilyName:Montserrat
+StyleName:Italic
+FullName:Montserrat Italic
+MenuName:Montserrat
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:E:\Abeer\project-files\361Degrees\Magazine-edit 14 May Folder Final\Magazine-edit 14 May Folder Final\Document fonts\Montserrat-Italic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:237828
+FileModTime:1715707147
+WeightClass:400
+WidthClass:5
+AngleClass:1
+NameArray:0,Mac,4,Montserrat Italic
+NameArray:0,Win,1,Montserrat
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Montserrat-Regular
+FamilyName:Montserrat
+StyleName:Regular
+FullName:Montserrat Regular
+MenuName:Montserrat
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\Abeer\project-files\361Degrees\Magazine-edit 14 May Folder Final\Magazine-edit 14 May Folder Final\Document fonts\Montserrat-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:228620
+FileModTime:1715707147
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Montserrat Regular
+NameArray:0,Win,1,Montserrat
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Montserrat-SemiBold
+FamilyName:Montserrat
+StyleName:SemiBold
+FullName:Montserrat SemiBold
+MenuName:Montserrat SemiBold
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\Abeer\project-files\361Degrees\Magazine-edit 14 May Folder Final\Magazine-edit 14 May Folder Final\Document fonts\Montserrat-SemiBold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:234056
+FileModTime:1715707147
+WeightClass:600
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Montserrat SemiBold
+NameArray:0,Win,1,Montserrat SemiBold
+NameArray:0,Win,16,Montserrat
+%EndFont
+
