@@ -47,17 +47,19 @@ for (let i = 0; i < homeIcon.length; i++) {
 }
 
 // Prevent sliding right after the last slide
+// Attach a single event listener to the parent element of carouselItems
 document.addEventListener('touchmove', (event) => {
-  let activeSlideIndex = [...carouselItems].findIndex(item => item.classList.contains('active'));
-  if (activeSlideIndex === carouselItems.length - 1) {
+  // Assuming 'carousel' is the parent container of carouselItems
+  let carousel = document.querySelector('.carousel');
+  let activeSlideIndex = [...carousel.querySelectorAll('.carousel-item')].findIndex(item => item.classList.contains('active'));
+
+  // Prevent sliding right on the last slide
+  if (activeSlideIndex === carousel.querySelectorAll('.carousel-item').length - 1) {
     event.preventDefault();
   }
-});
 
-// Prevent sliding left on the first slide
-document.addEventListener('touchmove', (event) => {
-  let activeSlideIndex = [...carouselItems].findIndex(item => item.classList.contains('active'));
+  // Prevent sliding left on the first slide
   if (activeSlideIndex === 0) {
     event.preventDefault();
   }
-});
+}, { passive: false }); // Use passive: false to allow preventDefault()
