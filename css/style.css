@@ -106,6 +106,10 @@ hr {
     right: -60px;
 
 }
+
+.bg-col-none .bg-color {
+    height: unset;
+}
 .dotted-circle {
     height: 150px;
     width: 150px;
