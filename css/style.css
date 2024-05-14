@@ -330,6 +330,10 @@ hr {
 border-radius: 50%;
 }
 
+.card .card-img, .card p {
+    cursor: pointer;
+}
+
 .circle-1, .circle-2, .circle-0 {
     position: absolute;
     background-color: #7a00e3;
