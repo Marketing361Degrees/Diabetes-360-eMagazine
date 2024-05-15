@@ -869,7 +869,7 @@ article p {
         margin-top: -22px;
     }
     .table-of-content-row p {
-        font-size: 13px;
+        font-size: 11px;
         top: 30px;
     }
     .circle-3 {
@@ -933,6 +933,12 @@ article p {
 
 /* // X-Small devices (portrait phones, less than 576px) */
 @media only screen and (max-width: 575.98px) {
+    .grey-circle {
+        height: 10px;
+        width: 10px;
+        right: -5px;
+        bottom: -4px;
+    }
     .bg-color {
         height: 1130px;
     }
@@ -1039,7 +1045,7 @@ article p {
 
     .circle-3 h1 {
         top: 27px;
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         left: 9px;
     }
     .table-header {
@@ -1159,6 +1165,6 @@ article p {
     }
 
  }
- @media only screen and (max-width: 376px) {
+ /* @media only screen and (max-width: 376px) {
 
- }
+ } */
