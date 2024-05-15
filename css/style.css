@@ -1,6 +1,7 @@
 html, body {
     overflow-x: hidden;
-    font-family: 'Montserrat';
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
 }
 
 .primary-col {
@@ -897,6 +898,16 @@ article p {
         padding-top: 10px; 
         padding-bottom: 10px;
     }
+    .subheader {
+        font-size: 11px;
+    } 
+    .headline {
+        font-size: 25px;
+    }
+    article p {
+        font-size: 15px;
+    }
+    
     .purple-quote {
         margin-bottom: 30px;
     }
