@@ -744,9 +744,7 @@ article p {
     .pagination p {
         margin-bottom: 0;
     }
-    /* .pages-header-footer {
-        margin-bottom: 10px;
-    } */
+
     .table-header-subtext h2 {
         color: #2b398f;
         font-size: 23px;
@@ -760,6 +758,15 @@ article p {
         width: 48%;
         margin-top: -25px;
         margin-left: 0;
+    }
+    .circle-3 {
+        
+        height: 130px;
+        width: 130px;
+    }
+
+    .circle-3 h1 {
+        font-size:38px;
     }
 
     .li-header {
