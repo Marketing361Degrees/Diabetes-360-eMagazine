@@ -23,6 +23,43 @@ hr {
     
 }
 
+/* arrow */
+.arrow {
+    position: fixed;
+    bottom: 20px;
+    right: 47%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+    z-index: 1000;
+    background: #7a00e5;
+    color: #fff;
+    font-size: 12px;
+    padding-left: 5px;
+    padding: 4px;
+    padding-left: 5px;
+  }
+  .arrow p {
+    padding-right: 5px;
+  }
+  .arrow svg {
+    border: 1px solid #fff7;
+    border-radius: 10px;
+    margin-right: 5px;
+    background: #fff;
+  }
+  .arrow.hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+
+  /* ---------------------------- */
 .sanofi-logo {
     width: 160px;
 }

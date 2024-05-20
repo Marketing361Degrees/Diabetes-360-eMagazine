@@ -15,3 +15,14 @@ carousel.onSwipe = function(event) {
     return false; // Alternative way to prevent the swipe action
   }
 };
+
+// ARROW
+var arrows = document.querySelectorAll('.arrow');
+
+document.addEventListener('scroll', handleScroll);
+
+function handleScroll() {
+  arrows.forEach(function(arrow) {
+    arrow.setAttribute("hidden", "");
+  });
+}
