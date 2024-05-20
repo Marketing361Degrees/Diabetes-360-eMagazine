@@ -20,7 +20,7 @@ hr {
     margin: 20px;
     position: fixed;
     z-index: 1000;
-    /* left: 100px; */
+    
 }
 
 .sanofi-logo {
@@ -681,7 +681,6 @@ article p {
     }
     .home-icon {
         left: 30px;
-        margin-left: 120px;
     }
     /* .nav-btns {
         width:unset;
@@ -699,6 +698,15 @@ article p {
     }
     .carousel-control-next, .carousel-control-prev {
         position: fixed;
+    }
+
+    .carousel-control-next {
+        right: 140px;
+
+    }
+
+    .carousel-control-prev {
+        left: 140px;
     }
     .bg-color {
         height: 1140px;
@@ -872,7 +880,6 @@ article p {
 
     .home-icon, .home-icon-white {
         width: 35px;
-        margin-left: 100px;
     }
     .header-txt {
         font-size: 10px;
