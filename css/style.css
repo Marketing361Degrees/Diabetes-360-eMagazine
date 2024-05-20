@@ -94,9 +94,13 @@ hr {
     bottom: unset;
     color: #4a228c;
     width: 30px;
+    /* position: fixed; */
 }
 
-
+.nav-btns {
+    width: 930px;
+    position: fixed;
+}
 /* table of content */
 .hba {
     margin-bottom: 150px;
@@ -672,10 +676,23 @@ article p {
     .bg-color {
         height: 1550px;
     }
+    /* .nav-btns {
+        width:unset;
+        position:unset
+    }
+    .carousel-control-next, .carousel-control-prev {
+        position: fixed;
+    } */
   }
    /* // Medium devices (tablets, less than 992px) */
 
  @media only screen and (max-width: 991.98px) {
+    .nav-btns {
+        width:unset;
+    }
+    .carousel-control-next, .carousel-control-prev {
+        position: fixed;
+    }
     .bg-color {
         height: 1140px;
     }
@@ -812,6 +829,12 @@ article p {
 
   /* // Small devices (landscape phones, less than 768px) */
   @media only screen and (max-width: 767.98px) { 
+    .nav-btns {
+        width:unset;
+    }
+    .carousel-control-next, .carousel-control-prev {
+        position: fixed;
+    }
     .bg-color {
         height: 1235px;
     }
@@ -947,6 +970,12 @@ article p {
 
 /* // X-Small devices (portrait phones, less than 576px) */
 @media only screen and (max-width: 575.98px) {
+    .nav-btns {
+        width:unset;
+    }
+    .carousel-control-next, .carousel-control-prev {
+        position: fixed;
+    }
     .hba1c {
         padding-bottom: 50px;
         font-size: 11px;
@@ -1180,6 +1209,12 @@ article p {
  }
 
  @media only screen and (max-width: 412px) {
+    .nav-btns {
+        width:unset;
+    }
+    .carousel-control-next, .carousel-control-prev {
+        position: fixed;
+    }
     .bg-color {
         height: 1045px;
     }
