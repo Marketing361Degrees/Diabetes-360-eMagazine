@@ -871,6 +871,7 @@ article p {
 
     .home-icon, .home-icon-white {
         width: 35px;
+        left: 105px;
     }
     .header-txt {
         font-size: 10px;
